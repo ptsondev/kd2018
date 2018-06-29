@@ -27,6 +27,12 @@ jQuery(document).ready(function($){
     $('#registerArea #hand').click(function(){
         $('#registerArea form').toggleClass('active');
     });
+        
+    $("#btnShowPopup").fancybox();
+    setTimeout(function(){ 
+        $("#btnShowPopup").trigger('click');
+    }, 3000);
+   
     
 });
 

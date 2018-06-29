@@ -1401,6 +1401,35 @@ box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
 span[typeof="v:Breadcrumb"]{
     color:#333;
 }
+
+#popupHot{
+    width: 600px;
+    text-align: center;
+}
+#popupHot li{
+    list-style: none;
+}
+#fancybox-content{
+    border: none;
+    padding: 12px 0;
+}
+#popupHot #imgHot{
+    width: 50px;
+    position: absolute;
+    left: 40px;
+    top: 0;
+}
+#btnShowPopup{
+    position: fixed;
+    background: url('../images/sale.gif') no-repeat;
+    background-size: 100% 100%;
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    right: 50px;
+    bottom: 160px;
+    z-index: 9999;
+}
 @media (max-width: 768px){
     #main-header{
         padding: 0;

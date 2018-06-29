@@ -896,3 +896,32 @@ span[typeof="v:Breadcrumb"]{
     color:#333;
 }
 
+#popupHot{
+    width: 300px;
+    text-align: center;
+}
+#popupHot li{
+    list-style: none;
+}
+#fancybox-content{
+    border: none;
+    padding: 12px 0;
+    width: 300px !important;
+}
+#popupHot #imgHot{
+    width: 50px;
+    position: absolute;
+    left: 40px;
+    top: 0;
+}
+#btnShowPopup{
+    position: fixed;
+    background: url('../images/sale.gif') no-repeat;
+    background-size: 100% 100%;
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    right: 50px;
+    bottom: 160px;
+    z-index: 9999;
+}

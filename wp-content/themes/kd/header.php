@@ -26,15 +26,18 @@ $db = connect_db();
         <link href="<?php echo get_template_directory_uri()?>/css/bootstrap.css" rel="stylesheet" />
         <link href="<?php echo get_template_directory_uri()?>/css/responsive_slide.css" rel="stylesheet" />
         <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/fonts/fonts.css">
+        <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/js/fancybox/jquery.fancybox-1.3.4.css">
         <link href="<?php echo get_template_directory_uri()?>/css/main.css" rel="stylesheet" />
 
-        <script type="text/javascript" src="<?php echo get_template_directory_uri()?>/js/jquery.min.js"></script>
+        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js"></script>
         <script type="text/javascript" src="<?php echo get_template_directory_uri()?>/js/bootstrap.min.js"></script>
         <script type="text/javascript" src="<?php echo get_template_directory_uri()?>/js/jquery.flexisel.js"></script>
         <script type="text/javascript" src="<?php echo get_template_directory_uri()?>/js/responsiveslides.min.js"></script>
         <script type="text/javascript" src="<?php echo get_template_directory_uri()?>/js/jquery.mousewheel.js"></script>
         <script type="text/javascript" src="<?php echo get_template_directory_uri()?>/js/parallax.js"></script>
-        <script type="text/javascript" src="<?php echo get_template_directory_uri()?>/js/jquery.bighover.js"></script>
+        <script type="text/javascript" src="<?php echo get_template_directory_uri()?>/js/jquery.bighover.js"></script>       
+        
+        <script type="text/javascript" src="<?php echo get_template_directory_uri()?>/js/fancybox/jquery.fancybox-1.3.4.pack.js"></script>
         
         <script type="text/javascript" src="<?php echo get_template_directory_uri()?>/js/js.js"></script>        
         

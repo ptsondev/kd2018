@@ -3,7 +3,7 @@ DEFINE('PATH_TO_IMG', get_template_directory_uri().'/images');
 
 function connect_db(){
     require_once 'EasyMySQLi.inc.php'; 
-    $db = new EasyMySQLi('localhost', 'root', 'mysqlHaoilaHa', 'wp_kingdom101'); 
+    $db = new EasyMySQLi('localhost', 'root', '', 'wp_kingdom101'); 
     $db->set_charset("utf8");
     return $db;
 }
@@ -13,7 +13,7 @@ $db = connect_db();
 
 function detect_click_tac($ip){
     $db = connect_db();    
-    $yesterday          = strtotime('-3 day', time());
+    $yesterday  = strtotime('-3 day', time());
     $result = $db->queryAllRows('SELECT url FROM k_visit WHERE IP=? AND time > ? AND google_ad=1', $ip, $yesterday);     
     $tmp = array();
     foreach($result as $item){
